@@ -1,0 +1,13 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    background-image: url(../images/tan-erica-438857-unsplash.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
