@@ -1,14 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Domine|Elsie+Swash+Caps|Open+Sans|Raleway');
 html,
 body {
     margin: 0;
     width: 100%;
+    font-family: Helvetica, sans-serif;
 }
 
 body {
-    background-image: url(../images/tan-erica-438857-unsplash.jpg) ;
+    background-image: url(../images/tan-erica-438857-unsplash.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Elsie Swash Caps', cursive;
+    letter-spacing: 5px;
+}
+
+.main {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #605252;
+    align-items: center;
+    padding-top: 10em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+}
