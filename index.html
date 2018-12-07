@@ -9,7 +9,7 @@
     
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" onclick="pause()">
         <header>
             <svg width="1000" height="200">
                 <text x="30" y="90" fill="#ED6E46" font-size="70">Singing Bowl Meditation</text>
@@ -21,34 +21,23 @@
             <p>Learn more about Tibetan Singing Bowls <a href="https://www.themindfulword.org/2011/tibetan-singing-bowls-introduction/">here</a>.</p>
         </div>
         <!--TO DO: hide audio controls and create on click function-->
-        <div class= "audio audio-1">
-            <audio preload="auto">
-                <source src="./audio/sound-3.wav" type="audio/mpeg">
-            </audio>
+        <div class= "audio audio-1" onmouseover="drumOne()">
         </div>
 
-        <div class=" audio audio-2">
-            <!-- <audio controls preload="auto">
-                <source src="./audio/sound-1.mp3" type="audio/mpeg">
-            </audio> -->
+        <div class=" audio audio-2" onmouseover="drumTwo()">
+    
         </div>
 
-        <div class="audio audio-3">
-            <audio preload="auto">
-                <source src="./audio/sound-2.wav" type="audio/mpeg">
-            </audio>
+        <div class="audio audio-3" onmouseover="drumThree()">
+            
         </div>
 
-        <div class="audio audio-4">
-            <audio preload="auto">
-                <source src="./audio/sound-4.wav" type="audio/mpeg">
-            </audio>
+        <div class="audio audio-4" onmouseover="drumFour()">
+         
         </div>
 
-        <div class="audio audio-5">
-            <audio preload="auto">
-                <source src="./audio/sound-5.mp3" type="audio/mpeg">
-            </audio>
+        <div class="audio audio-5" onmouseover="drumFive()">
+            
         </div>
     </div>
 <script src="./main.js"></script>
