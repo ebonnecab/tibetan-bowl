@@ -48,3 +48,33 @@ a {
     border: solid black 2px;
     border-radius: 50px 50px 50px 50px;
 }
+
+.audio-1{
+    position: absolute;
+    top: 27em;
+    left: 15em;
+}
+
+.audio-2{
+    position: absolute;
+    top: 17em;
+    left: 25em;
+}
+
+.audio-3{
+    position: absolute;
+    top: 14em;
+    left: 40em;
+}
+
+.audio-4{
+    position: absolute;
+    top: 18em;
+    left: 53em;
+}
+
+.audio-5{
+    position: absolute;
+    top: 27em;
+    left: 60em;
+}
