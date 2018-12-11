@@ -30,3 +30,5 @@ function pause() {
     sounds.forEach((item) => {item.pause()})
 }
 
+
+
