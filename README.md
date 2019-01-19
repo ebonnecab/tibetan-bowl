@@ -1,2 +1,7 @@
-# tibetan-bowl
-browser api project for few 1.1
+# Singing Bowl Meditation
+
+A simple web application that uses the browser API.
+
+## Technologies Used
+* HTML/CSS
+* Javascript
